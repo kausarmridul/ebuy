@@ -1,0 +1,35 @@
+$ff1: 'Raleway',
+sans-serif;
+$ff2: 'Open Sans',
+sans-serif;
+
+// Raleway Font
+
+@mixin ralereg {
+    font-family: $ff1;
+    font-weight: 400;
+}
+@mixin ralemed {
+    font-family: $ff1;
+    font-weight: 500;
+}
+@mixin ralebold {
+    font-family: $ff1;
+    font-weight: 700;
+}
+
+// Opensans Font
+
+@mixin openreg {
+    font-family: $ff2;
+    font-weight: 400;
+}
+@mixin openmed {
+    font-family: $ff2;
+    font-weight: 500;
+}
+
+@mixin openbold {
+    font-family: $ff2;
+    font-weight: 700;
+}

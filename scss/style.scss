@@ -1,0 +1,22 @@
+@import 'variables';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+@import 'header_footer/header';
+@import 'header_footer/footer';

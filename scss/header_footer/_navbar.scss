@@ -1,0 +1,92 @@
+@import '../variables';
+
+/* ===============
+    Navbar Starts
+================ */
+
+nav {
+    margin: 30px 0;
+
+    .navbar-brand {}
+
+    .navbar-collapse {
+        .navbar-nav {
+            .nav-item {
+                .nav-link {
+                    font-size: 16px;
+                    color: $cl3;
+                    margin: 0 10px;
+                    padding: 0;
+                    position: relative;
+                    @include ralemed;
+                    @include trans(0.4s);
+
+                    &:hover {
+                        color: $brand;
+
+                        &::before {
+                            width: 23px;
+                        }
+
+                        &::after {
+                            width: 11px;
+                        }
+                    }
+
+                    &::before {
+                        content: '';
+                        width: 0px;
+                        height: 1px;
+                        background: $brand;
+                        position: absolute;
+                        bottom: -7px;
+                        left: 0;
+                        @include trans(0.4s);
+                    }
+
+                    &::after {
+                        content: '';
+                        width: 0px;
+                        height: 1px;
+                        background: $brand;
+                        position: absolute;
+                        bottom: -11px;
+                        left: 0;
+                        @include trans(0.4s);
+                    }
+                }
+
+                .active {
+                    color: $brand !important;
+
+                    &::before {
+                        width: 23px;
+                    }
+
+                    &::after {
+                        width: 11px;
+                    }
+                }
+            }
+        }
+
+        form {
+            i {
+                color: $bg1;
+            }
+        }
+
+        .cart-item {
+            font-size: 16px;
+            color: $brand;
+            @include ralemed;
+            margin-left: 15px;
+        }
+    }
+
+}
+
+
+/* ===============
+    Navbar Ends
+================ */

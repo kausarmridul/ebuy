@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ===============
+    Header Starts
+=============== */
+header {
+  background: #444444;
+}
+
+header .header-left ul li:first-child {
+  margin-left: 0;
+}
+
+header .header-right ul li:last-child {
+  margin-right: 0;
+}
+
+header ul li {
+  border-right: 1px solid #dddddd;
+}
+
+header ul li:last-child {
+  border-right: none;
+}
+
+header ul li a {
+  line-height: 50px;
+  margin: 0 20px;
+  font-size: 13px;
+  color: #dddddd;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+header ul li a:hover {
+  color: #de4644;
+  transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+}
+
+/* ===============
+    Navbar Starts
+================ */
+nav {
+  margin: 30px 0;
+}
+
+nav .navbar-collapse .navbar-nav .nav-item .nav-link {
+  font-size: 16px;
+  color: #222222;
+  margin: 0 10px;
+  padding: 0;
+  position: relative;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+}
+
+nav .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+  color: #de4644;
+}
+
+nav .navbar-collapse .navbar-nav .nav-item .nav-link:hover::before {
+  width: 23px;
+}
+
+nav .navbar-collapse .navbar-nav .nav-item .nav-link:hover::after {
+  width: 11px;
+}
+
+nav .navbar-collapse .navbar-nav .nav-item .nav-link::before {
+  content: '';
+  width: 0px;
+  height: 1px;
+  background: #de4644;
+  position: absolute;
+  bottom: -7px;
+  left: 0;
+  transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+}
+
+nav .navbar-collapse .navbar-nav .nav-item .nav-link::after {
+  content: '';
+  width: 0px;
+  height: 1px;
+  background: #de4644;
+  position: absolute;
+  bottom: -11px;
+  left: 0;
+  transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+}
+
+nav .navbar-collapse .navbar-nav .nav-item .active {
+  color: #de4644 !important;
+}
+
+nav .navbar-collapse .navbar-nav .nav-item .active::before {
+  width: 23px;
+}
+
+nav .navbar-collapse .navbar-nav .nav-item .active::after {
+  width: 11px;
+}
+
+nav .navbar-collapse form i {
+  color: #444444;
+}
+
+nav .navbar-collapse .cart-item {
+  font-size: 16px;
+  color: #de4644;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  margin-left: 15px;
+}
+
+/* ===============
+    Navbar Ends
+================ */
+/* ===============
+    Header Ends
+=============== */
+/*# sourceMappingURL=style.css.map */

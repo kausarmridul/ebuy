@@ -1,0 +1,60 @@
+@import '../variables';
+
+/* ===============
+    Header Starts
+=============== */
+
+header {
+    background: $bg1;
+
+    .header-left {
+        ul {
+            li {
+                &:first-child {
+                    margin-left: 0;
+                }
+                a {
+                  
+                }
+            }
+        }
+    }
+
+    .header-right{
+        ul{
+            li{
+                &:last-child{
+                    margin-right: 0;
+                }
+                a{
+
+                }
+            }
+        }
+    }
+
+    ul {
+        li {
+            border-right: 1px solid $cl1;
+            &:last-child{
+                border-right: none;
+            }
+            a {
+                line-height: 50px;
+                margin: 0 20px;
+                font-size: 13px;
+                color: $cl1;
+                @include openreg;
+
+                &:hover {
+                    color: $brand;
+                    @include trans(0.4s);
+                }
+            }
+        }
+    }
+}
+@import 'navbar';
+/* ===============
+    Header Ends
+=============== */
