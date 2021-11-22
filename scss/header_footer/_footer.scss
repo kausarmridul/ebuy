@@ -5,7 +5,71 @@ footer {
         background: $bg2;
         padding-top: 60px;
 
-        .footer-item {}
+        .footer-item {
+            h4 {
+                @include ralemed;
+                font-size: 16px;
+            }
+
+            ul {
+                li {
+                    @include openreg;
+                    font-size: 14px;
+                    color: $cl1;
+                    position: relative;
+
+                    .icon {
+                        position: absolute;
+
+                        i {}
+                    }
+
+                    a {
+                        color: $cl1;
+                    }
+                }
+            }
+
+            nav {
+                a {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    display: inline-block;
+                    text-align: center;
+                    line-height: 40px;
+                    color: $cl3;
+                    background: #fff;
+                    @include trans(.4s);
+
+                    &:hover {
+                        background: $brand;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+
+        .footer-account {
+            ul {
+                li {
+                    a {
+                        @include trans(.4s);
+
+                        &:hover {
+                            padding-left: 5px;
+                            color: $brand;
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer-form {
+            .form-control {}
+
+            .input-group-text {}
+        }
     }
 
     .footer-copyright {
