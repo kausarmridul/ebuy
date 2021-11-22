@@ -1,0 +1,15 @@
+@import '../variables';
+
+footer {
+    .footer-main {
+        background: $bg2;
+        padding-top: 60px;
+
+        .footer-item {}
+    }
+
+    .footer-copyright {
+        background: $bg3;
+        padding: 30px 0;
+    }
+}

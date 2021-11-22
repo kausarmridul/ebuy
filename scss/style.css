@@ -151,4 +151,13 @@ nav .navbar-collapse .cart-item {
 /* ===============
     Header Ends
 =============== */
+footer .footer-main {
+  background: #353535;
+  padding-top: 60px;
+}
+
+footer .footer-copyright {
+  background: #555555;
+  padding: 30px 0;
+}
 /*# sourceMappingURL=style.css.map */
