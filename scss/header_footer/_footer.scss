@@ -4,25 +4,21 @@ footer {
     .footer-main {
         background: $bg2;
         padding-top: 60px;
+        padding-bottom: 55px;
 
         .footer-item {
             h4 {
                 @include ralemed;
                 font-size: 16px;
+                margin-bottom: 40px !important;
             }
 
             ul {
                 li {
                     @include openreg;
-                    font-size: 14px;
+                    font-size: 13px;
                     color: $cl1;
-                    position: relative;
-
-                    .icon {
-                        position: absolute;
-
-                        i {}
-                    }
+                    line-height: 24px;
 
                     a {
                         color: $cl1;
@@ -30,29 +26,57 @@ footer {
                 }
             }
 
-            nav {
-                a {
-                    width: 40px;
-                    height: 40px;
-                    border-radius: 50%;
-                    display: inline-block;
-                    text-align: center;
-                    line-height: 40px;
-                    color: $cl3;
-                    background: #fff;
-                    @include trans(.4s);
 
-                    &:hover {
-                        background: $brand;
-                        color: #fff;
+        }
+
+        .footer-detail {
+            ul {
+                margin-top: 10px;
+
+                li {
+                    margin-bottom: 20px;
+
+                    &:last-child {
+                        margin-bottom: 0;
                     }
                 }
             }
         }
 
+        .footer-contact {
+            ul {
+                li {
+                    position: relative;
+                    padding-left: 30px;
+                    padding-bottom: 20px;
+
+                    &:last-child {
+                        padding-bottom: 0;
+                    }
+
+                    .icon {
+                        position: absolute;
+                        left: 0;
+
+                        i {
+                            font-size: 13px;
+                        }
+                    }
+
+                }
+            }
+        }
+
+
         .footer-account {
             ul {
                 li {
+                    margin-bottom: 10px;
+
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+
                     a {
                         @include trans(.4s);
 
@@ -66,14 +90,71 @@ footer {
         }
 
         .footer-form {
-            .form-control {}
+            h4 {
+                margin-bottom: 30px !important;
+            }
 
-            .input-group-text {}
+            .input-group {
+                margin-bottom: 30px;
+
+                .form-control {
+                    background: transparent;
+                    @include openli;
+                    outline: none;
+                    color: $cl1;
+                }
+
+                .input-group-text {
+                    background: $brand;
+                    padding: 0 20px;
+                    border: none;
+                    color: #fff;
+                }
+            }
+
+            a {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                display: inline-block;
+                text-align: center;
+                line-height: 40px;
+                color: $cl3;
+                margin-right: 23px;
+                background: #fff;
+                @include trans(.4s);
+
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                &:hover {
+                    background: $brand;
+                    color: #fff;
+                }
+
+            }
         }
     }
 
     .footer-copyright {
         background: $bg3;
-        padding: 30px 0;
+
+        .copyright-text {
+            p {
+                @include openreg;
+                font-size: 14px;
+                line-height: 55px;
+
+                a {
+                    @include ralemed;
+                    color: $brand;
+                }
+            }
+        }
+
+        .footer-payment {
+            padding-top: 10px;
+        }
     }
 }

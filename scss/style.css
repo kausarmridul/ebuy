@@ -154,49 +154,65 @@ nav .navbar-collapse .cart-item {
 footer .footer-main {
   background: #353535;
   padding-top: 60px;
+  padding-bottom: 55px;
 }
 
 footer .footer-main .footer-item h4 {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 16px;
+  margin-bottom: 40px !important;
 }
 
 footer .footer-main .footer-item ul li {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 13px;
   color: #dddddd;
-  position: relative;
-}
-
-footer .footer-main .footer-item ul li .icon {
-  position: absolute;
+  line-height: 24px;
 }
 
 footer .footer-main .footer-item ul li a {
   color: #dddddd;
 }
 
-footer .footer-main .footer-item nav a {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: inline-block;
-  text-align: center;
-  line-height: 40px;
-  color: #222222;
-  background: #fff;
-  transition: all linear 0.4s;
-  -ms-transition: all linear 0.4s;
-  -moz-transition: all linear 0.4s;
-  -o-transition: all linear 0.4s;
-  -webkit-transition: all linear 0.4s;
+footer .footer-main .footer-detail ul {
+  margin-top: 10px;
 }
 
-footer .footer-main .footer-item nav a:hover {
-  background: #de4644;
-  color: #fff;
+footer .footer-main .footer-detail ul li {
+  margin-bottom: 20px;
+}
+
+footer .footer-main .footer-detail ul li:last-child {
+  margin-bottom: 0;
+}
+
+footer .footer-main .footer-contact ul li {
+  position: relative;
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+
+footer .footer-main .footer-contact ul li:last-child {
+  padding-bottom: 0;
+}
+
+footer .footer-main .footer-contact ul li .icon {
+  position: absolute;
+  left: 0;
+}
+
+footer .footer-main .footer-contact ul li .icon i {
+  font-size: 13px;
+}
+
+footer .footer-main .footer-account ul li {
+  margin-bottom: 10px;
+}
+
+footer .footer-main .footer-account ul li:last-child {
+  margin-bottom: 0;
 }
 
 footer .footer-main .footer-account ul li a {
@@ -212,8 +228,74 @@ footer .footer-main .footer-account ul li a:hover {
   color: #de4644;
 }
 
+footer .footer-main .footer-form h4 {
+  margin-bottom: 30px !important;
+}
+
+footer .footer-main .footer-form .input-group {
+  margin-bottom: 30px;
+}
+
+footer .footer-main .footer-form .input-group .form-control {
+  background: transparent;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  outline: none;
+  color: #dddddd;
+}
+
+footer .footer-main .footer-form .input-group .input-group-text {
+  background: #de4644;
+  padding: 0 20px;
+  border: none;
+  color: #fff;
+}
+
+footer .footer-main .footer-form a {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+  color: #222222;
+  margin-right: 23px;
+  background: #fff;
+  transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+}
+
+footer .footer-main .footer-form a:last-child {
+  margin-right: 0;
+}
+
+footer .footer-main .footer-form a:hover {
+  background: #de4644;
+  color: #fff;
+}
+
 footer .footer-copyright {
   background: #555555;
-  padding: 30px 0;
+}
+
+footer .footer-copyright .copyright-text p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 55px;
+}
+
+footer .footer-copyright .copyright-text p a {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  color: #de4644;
+}
+
+footer .footer-copyright .footer-payment {
+  padding-top: 10px;
 }
 /*# sourceMappingURL=style.css.map */
