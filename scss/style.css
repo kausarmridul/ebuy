@@ -151,6 +151,43 @@ nav .navbar-collapse .cart-item {
 /* ===============
     Header Ends
 =============== */
+/* =========================
+    Services Part Starts
+======================== */
+#service-head {
+  background: #f1f1f1;
+}
+
+#service-head .service-head .service-head-item {
+  border-right: 1px solid #dddddd;
+  padding: 25px 0;
+}
+
+#service-head .service-head .service-head-item .active {
+  color: #de4644;
+}
+
+#service-head .service-head .service-head-item h5 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 25px !important;
+}
+
+#service-head .service-head .service-head-item h5 i {
+  margin-right: 5px;
+}
+
+#service-head .service-head .service-head-item p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* ======================
+   Services Part Ends
+====================== */
 footer .footer-main {
   background: #353535;
   padding-top: 60px;

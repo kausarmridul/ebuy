@@ -1,0 +1,41 @@
+@import '../variables';
+
+/* =========================
+    Services Part Starts
+======================== */
+
+#service-head {
+    background: $cl2;
+
+    .service-head {
+        .service-head-item {
+            border-right: 1px solid $cl1;
+            padding: 25px 0;
+
+            .active {
+                color: $brand;
+            }
+
+            h5 {
+                @include openreg;
+                font-size: 24px;
+                margin-bottom: 25px !important;
+
+                i {
+                    margin-right: 5px
+                }
+            }
+
+            p {
+                @include openreg;
+                font-size: 14px;
+                line-height: 24px;
+            }
+        }
+    }
+}
+
+
+/* ======================
+   Services Part Ends
+====================== */
