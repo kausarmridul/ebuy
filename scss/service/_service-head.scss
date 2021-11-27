@@ -35,6 +35,50 @@
     }
 }
 
+#service-body {
+    padding: 90px 0;
+
+    .service-body {
+        .service-item {
+            transform: scaleX(0.95);
+
+            .service-item-body {}
+
+            img {}
+
+            .overlay {
+                background: rgba(0, 0, 0, 0.8);
+                transform: scaleX(0.90);
+                padding-top: 5px;
+                padding-bottom: 10px;
+                bottom: 20px;
+                position: absolute;
+                width: 100%;
+
+                h3 {
+                    @include ralemed;
+                    font-size: 36px;
+                }
+
+                p {
+                    @include ralemed;
+                    font-size: 24px;
+                    padding-bottom: 15px
+                }
+
+                a {
+                    @include shopbtn;
+                    @include trans(0.4s);
+
+                    &:hover {
+                        @include bhover;
+                    }
+                }
+            }
+        }
+    }
+}
+
 
 /* ======================
    Services Part Ends

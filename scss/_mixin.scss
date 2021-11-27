@@ -7,3 +7,20 @@
     -o-transition: all linear $time;
     -webkit-transition: all linear $time;
 }
+
+@mixin shopbtn {
+    @include ralemed;
+    font-size: 16px;
+    color: #fff;
+    line-height: 55px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0 20px;
+    border-radius: 3px;
+}
+
+@mixin bhover {
+    background: $brand;
+    border-color: $brand;
+}
