@@ -287,6 +287,100 @@ nav .navbar-collapse .cart-item {
 /* ======================
    Services Part Ends
 ====================== */
+#launch-product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #f1f1f1;
+  padding: 60px 0;
+}
+
+#launch-product .launch-product-details {
+  width: 570px;
+  margin-left: 35px;
+}
+
+#launch-product .launch-product-details h5 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #222222;
+}
+
+#launch-product .launch-product-details h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: #de4644;
+  padding-bottom: 15px;
+}
+
+#launch-product .launch-product-details p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  padding-bottom: 20px;
+}
+
+#launch-product .launch-product-details #countdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 30px;
+}
+
+#launch-product .launch-product-details #countdown .wrapper {
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 10px;
+}
+
+#launch-product .launch-product-details #countdown .wrapper span {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #444444;
+  display: block;
+  text-align: center;
+  text-transform: capitalize !important;
+}
+
+#launch-product .launch-product-details #countdown #days {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #353535;
+  margin-right: 30px;
+}
+
+#launch-product .launch-product-details #countdown #hours {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #353535;
+  margin-right: 30px;
+}
+
+#launch-product .launch-product-details #countdown #mins {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #353535;
+  margin-right: 30px;
+}
+
+#launch-product .launch-product-details #countdown #sec {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #353535;
+  margin-right: 30px;
+  margin-right: 0 !important;
+}
+
 #banner .banner-slider .bg-1 {
   background: url(../images/banner-1.jpg) no-repeat center/cover;
 }

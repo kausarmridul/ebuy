@@ -1,0 +1,75 @@
+@import '../variables';
+
+#launch-product {
+    display: flex;
+    background: $cl2;
+    padding: 60px 0;
+
+    .launch-product-img {
+        img {}
+    }
+
+    .launch-product-details {
+        width: 570px;
+        margin-left: 35px;
+
+        h5 {
+            @include ralemed;
+            font-size: 20px;
+            color: $cl3;
+        }
+
+        h3 {
+            @include ralemed;
+            font-size: 40px;
+            color: $brand;
+            padding-bottom: 15px
+        }
+
+        p {
+            @include openreg;
+            font-size: 14px;
+            line-height: 24px;
+            padding-bottom: 20px;
+        }
+
+        #countdown {
+            display: flex;
+            padding-top: 30px;
+
+            .wrapper {
+                height: 80px;
+                display: flex;
+                flex-direction: column;
+                padding-top: 10px;
+
+                span {
+                    @include ralemed;
+                    font-size: 20px;
+                    color: $bg1;
+                    display: block;
+                    text-align: center;
+                    text-transform: capitalize !important;
+
+                }
+            }
+
+            #days {
+                @include codo;
+            }
+
+            #hours {
+                @include codo;
+            }
+
+            #mins {
+                @include codo;
+            }
+
+            #sec {
+                @include codo;
+                margin-right: 0 !important;
+            }
+        }
+    }
+}
