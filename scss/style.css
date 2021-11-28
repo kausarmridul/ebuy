@@ -194,6 +194,28 @@ nav .navbar-collapse .cart-item {
           transform: scaleX(0.95);
 }
 
+#service-body .service-body .service-item .service-item-body {
+  overflow: hidden;
+}
+
+#service-body .service-body .service-item .service-item-body .sale-badge {
+  background: #fff;
+  width: 100%;
+  position: absolute;
+  top: 40px;
+  left: -135px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+#service-body .service-body .service-item .service-item-body .sale-badge p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #de4644;
+  text-align: center;
+}
+
 #service-body .service-body .service-item .overlay {
   background: rgba(0, 0, 0, 0.8);
   -webkit-transform: scaleX(0.9);

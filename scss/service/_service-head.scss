@@ -42,9 +42,29 @@
         .service-item {
             transform: scaleX(0.95);
 
-            .service-item-body {}
+            .service-item-body {
+                overflow: hidden;
 
-            img {}
+                img {}
+
+                .sale-badge {
+                    background: #fff;
+                    width: 100%;
+                    position: absolute;
+                    top: 40px;
+                    left: -135px;
+                    transform: rotate(-45deg);
+
+                    p {
+                        @include ralemed;
+                        font-size: 16px;
+                        color: $brand;
+                        text-align: center;
+                    }
+                }
+
+
+            }
 
             .overlay {
                 background: rgba(0, 0, 0, 0.8);
@@ -78,6 +98,7 @@
         }
     }
 }
+
 
 
 /* ======================
