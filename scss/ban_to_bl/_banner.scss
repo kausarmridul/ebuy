@@ -1,0 +1,79 @@
+@import '../variables';
+
+
+#banner {
+
+    .banner-slider {
+        .bg-1 {
+            background: url(../../images/banner-1.jpg) no-repeat center / cover;
+
+            a {
+                &:first-of-type {
+                    background: $brand;
+                    border-color: $brand;
+                }
+            }
+        }
+
+        .bg-2 {
+            background: url(../../images/banner-2.jpg) no-repeat center / cover;
+
+            a {
+                &:last-of-type {
+                    background: $brand;
+                    border-color: $brand;
+                }
+            }
+        }
+
+        .banner-item {
+            position: relative;
+            z-index: 1;
+            padding-top: 125px;
+            padding-bottom: 150px;
+
+            h4 {
+                @include ralebold;
+                font-size: 70px;
+                color: $brand;
+            }
+
+            h1 {
+                @include ralereg;
+                font-size: 40px;
+                color: #fff;
+                padding-bottom: 10px
+            }
+
+            p {
+                @include openreg;
+                font-size: 14px;
+                line-height: 24px;
+                color: #fff;
+                padding-bottom: 60px
+            }
+
+            a {
+                @include shopbtn;
+                line-height: 52px;
+                @include trans(.5s);
+                margin-right: 20px;
+
+
+                &:hover {
+                    @include bhover;
+                }
+            }
+
+            &::after {
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                inset: 0;
+                background: rgba(0, 0, 0, 0.6);
+                z-index: -1;
+            }
+        }
+    }
+}

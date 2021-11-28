@@ -45,7 +45,13 @@
             .service-item-body {
                 overflow: hidden;
 
-                img {}
+                img {
+                    transition: all linear .5s;
+
+                    &:hover {
+                        transform: scale(1.2);
+                    }
+                }
 
                 .sale-badge {
                     background: #fff;

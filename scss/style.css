@@ -198,6 +198,16 @@ nav .navbar-collapse .cart-item {
   overflow: hidden;
 }
 
+#service-body .service-body .service-item .service-item-body img {
+  -webkit-transition: all linear .5s;
+  transition: all linear .5s;
+}
+
+#service-body .service-body .service-item .service-item-body img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
 #service-body .service-body .service-item .service-item-body .sale-badge {
   background: #fff;
   width: 100%;
@@ -267,6 +277,91 @@ nav .navbar-collapse .cart-item {
 /* ======================
    Services Part Ends
 ====================== */
+#banner .banner-slider .bg-1 {
+  background: url(../../images/banner-1.jpg) no-repeat center/cover;
+}
+
+#banner .banner-slider .bg-1 a:first-of-type {
+  background: #de4644;
+  border-color: #de4644;
+}
+
+#banner .banner-slider .bg-2 {
+  background: url(../../images/banner-2.jpg) no-repeat center/cover;
+}
+
+#banner .banner-slider .bg-2 a:last-of-type {
+  background: #de4644;
+  border-color: #de4644;
+}
+
+#banner .banner-slider .banner-item {
+  position: relative;
+  z-index: 1;
+  padding-top: 125px;
+  padding-bottom: 150px;
+}
+
+#banner .banner-slider .banner-item h4 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+  color: #de4644;
+}
+
+#banner .banner-slider .banner-item h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: #fff;
+  padding-bottom: 10px;
+}
+
+#banner .banner-slider .banner-item p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  padding-bottom: 60px;
+}
+
+#banner .banner-slider .banner-item a {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  line-height: 55px;
+  border: 1px solid #fff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline-block;
+  padding: 0 20px;
+  border-radius: 3px;
+  line-height: 52px;
+  transition: all linear 0.5s;
+  -ms-transition: all linear 0.5s;
+  -moz-transition: all linear 0.5s;
+  -o-transition: all linear 0.5s;
+  -webkit-transition: all linear 0.5s;
+  margin-right: 20px;
+}
+
+#banner .banner-slider .banner-item a:hover {
+  background: #de4644;
+  border-color: #de4644;
+}
+
+#banner .banner-slider .banner-item::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
 footer .footer-main {
   background: #353535;
   padding-top: 60px;
