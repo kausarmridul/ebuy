@@ -14,6 +14,10 @@ $(document).ready(function () {
     }]
   });
 
+  $('.product-slider').slick({
+    slidesToShow: 4,
+  })
+
   $('.banner-slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
