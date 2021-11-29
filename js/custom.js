@@ -1,5 +1,6 @@
 $(document).ready(function () {
   'use strict'
+
   $('.service-body').slick({
     slidesToShow: 3,
     arrows: false,
@@ -12,12 +13,14 @@ $(document).ready(function () {
       }
     }]
   });
+
   $('.banner-slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
     arrows: false,
   });
+
   $('#countdown').countdown({
     year: 2022, // YYYY Format
     month: 1, // 1-12
@@ -26,4 +29,6 @@ $(document).ready(function () {
     minute: 0, // 0-59
     second: 0, // 0-59
   });
+
+  var mixer = mixitup(".feature-tabs");
 })
