@@ -16,6 +16,9 @@ a {
   text-decoration: none;
 }
 
+/* =================
+    Common Css Ends
+=================== */
 /* ===============
     Header Starts
 =============== */
@@ -151,6 +154,9 @@ nav .navbar-collapse .cart-item {
 /* ===============
     Header Ends
 =============== */
+/* ===============
+   Banner Starts 
+================ */
 #banner .banner-slider .bg-1 {
   background: url(../images/banner-1.jpg) no-repeat center/cover;
 }
@@ -236,6 +242,9 @@ nav .navbar-collapse .cart-item {
   z-index: -1;
 }
 
+/* ===============
+   Banner Ends 
+================ */
 /* =========================
     Services Part Starts
 ======================== */
@@ -371,6 +380,9 @@ nav .navbar-collapse .cart-item {
 /* ======================
    Services Part Ends
 ====================== */
+/* ======================
+   Countdown Part Starts
+======================== */
 #launch-product {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -465,6 +477,12 @@ nav .navbar-collapse .cart-item {
   margin-right: 0 !important;
 }
 
+/* ======================
+   Countdown Part Starts
+======================== */
+/*  =====================
+     Feature Part Starts
+=======================  */
 #feature {
   padding-bottom: 100px;
 }
@@ -651,6 +669,12 @@ nav .navbar-collapse .cart-item {
   color: #de4644;
 }
 
+/*  =====================
+     Feature Part Ends
+=======================  */
+/* ===================
+  Product Part Starts
+=================== */
 #latest-product {
   padding-top: 90px;
   padding-bottom: 100px;
@@ -801,6 +825,166 @@ nav .navbar-collapse .cart-item {
   color: #de4644;
 }
 
+/* ===================
+  Product Part Ends
+=================== */
+/*  =======================
+    Testimonial Part Starts
+======================== */
+#testimonial .testimonial-head {
+  width: 350px;
+  margin: 0 auto;
+  padding-bottom: 70px;
+  position: relative;
+}
+
+#testimonial .testimonial-head::before {
+  content: '';
+  position: absolute;
+  bottom: 60px;
+  left: 2px;
+  width: 107px;
+  height: 1px;
+  background: #de4644;
+}
+
+#testimonial .testimonial-head::after {
+  content: '';
+  position: absolute;
+  bottom: 55px;
+  left: 2px;
+  width: 54px;
+  height: 1px;
+  background: #de4644;
+}
+
+#testimonial .testimonial-head h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: #222222;
+}
+
+#testimonial .testimonial-body {
+  background: url(../images/testimonial-bg.jpg) no-repeat center/cover;
+  position: relative;
+  z-index: 1;
+  padding-top: 60px;
+  padding-bottom: 130px;
+}
+
+#testimonial .testimonial-body::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: -1;
+}
+
+#testimonial .testimonial-body .testimonial-slider .testimonial-item {
+  padding-right: 30px;
+}
+
+#testimonial .testimonial-body .testimonial-slider .testimonial-item .testimonial-right {
+  color: #fff;
+}
+
+#testimonial .testimonial-body .testimonial-slider .testimonial-item .testimonial-right h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 5px !important;
+}
+
+#testimonial .testimonial-body .testimonial-slider .testimonial-item .testimonial-right h5 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 25px !important;
+}
+
+#testimonial .testimonial-body .testimonial-slider .testimonial-item .testimonial-right p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #dddddd;
+  margin-bottom: 20px !important;
+}
+
+#testimonial .testimonial-body .testimonial-slider .testimonial-item .testimonial-right .signature img {
+  margin-left: auto;
+}
+
+/*  =======================
+    Testimonial Part Ends
+======================== */
+/* =============
+   Blog Starts
+============== */
+#blog .blog-head {
+  width: 350px;
+  margin: 0 auto;
+  padding-bottom: 70px;
+  position: relative;
+}
+
+#blog .blog-head::before {
+  content: '';
+  position: absolute;
+  bottom: 60px;
+  left: 2px;
+  width: 81px;
+  height: 1px;
+  background: #de4644;
+}
+
+#blog .blog-head::after {
+  content: '';
+  position: absolute;
+  bottom: 55px;
+  left: 2px;
+  width: 41px;
+  height: 1px;
+  background: #de4644;
+}
+
+#blog .blog-head h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: #222222;
+}
+
+#blog .blog-body .blog-item .blog-content h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #222222;
+}
+
+#blog .blog-body .blog-item .blog-content p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #444444;
+}
+
+#blog .blog-body .blog-item .blog-content a {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* =============
+   Blog Starts
+============== */
+/* =========================
+  Page Lower Portion Starts
+========================== */
 footer .footer-main {
   background: #353535;
   padding-top: 60px;
@@ -948,4 +1132,8 @@ footer .footer-copyright .copyright-text p a {
 footer .footer-copyright .footer-payment {
   padding-top: 10px;
 }
+
+/* =======================
+   Page Lower Portion Ends 
+======================== */
 /*# sourceMappingURL=style.css.map */

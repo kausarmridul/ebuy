@@ -1,6 +1,8 @@
 $(document).ready(function () {
   'use strict'
 
+  // Service Slider
+
   $('.service-body').slick({
     slidesToShow: 3,
     arrows: false,
@@ -14,9 +16,15 @@ $(document).ready(function () {
     }]
   });
 
+  // Product Slider
+
   $('.product-slider').slick({
     slidesToShow: 4,
   })
+
+
+  // Banner Slider
+
 
   $('.banner-slider').slick({
     slidesToShow: 1,
@@ -24,6 +32,9 @@ $(document).ready(function () {
     autoplay: true,
     arrows: false,
   });
+
+
+  // Countdown Timer
 
   $('#countdown').countdown({
     year: 2022, // YYYY Format
@@ -33,6 +44,17 @@ $(document).ready(function () {
     minute: 0, // 0-59
     second: 0, // 0-59
   });
+
+  // Testimonial Slider
+
+  $('.testimonial-slider').slick({
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    arrows: false,
+  })
+
+
+  // Feature Product Filter
 
   var mixer = mixitup(".feature-tabs");
 })

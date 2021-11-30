@@ -1,0 +1,103 @@
+@import '../variables';
+
+
+/*  =======================
+    Testimonial Part Starts
+======================== */
+
+#testimonial {
+    .testimonial-head {
+        width: 350px;
+        margin: 0 auto;
+        padding-bottom: 70px;
+        position: relative;
+
+        &::before {
+            content: '';
+            position: absolute;
+            bottom: 60px;
+            left: 2px;
+            width: 107px;
+            height: 1px;
+            background: $brand;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: 55px;
+            left: 2px;
+            width: 54px;
+            height: 1px;
+            background: $brand;
+        }
+
+        h3 {
+            @include comhed;
+        }
+    }
+
+    .testimonial-body {
+        background: url(../images/testimonial-bg.jpg) no-repeat center / cover;
+        position: relative;
+        z-index: 1;
+        padding-top: 60px;
+        padding-bottom: 130px;
+
+        &::before {
+            content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: -1;
+        }
+
+        .testimonial-slider {
+            .testimonial-item {
+                padding-right: 30px;
+
+                .testimonial-left {
+                    img {}
+                }
+
+                .testimonial-right {
+                    color: #fff;
+
+                    h3 {
+                        @include ralemed;
+                        font-size: 20px;
+                        margin-bottom: 5px !important;
+                    }
+
+                    h5 {
+                        @include ralemed;
+                        font-size: 16px;
+                        margin-bottom: 25px !important;
+                    }
+
+                    p {
+                        @include openreg;
+                        font-size: 14px;
+                        line-height: 24px;
+                        color: $cl1;
+                        margin-bottom: 20px !important;
+                    }
+
+                    .signature {
+                        img {
+                            margin-left: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+/*  =======================
+    Testimonial Part Ends
+======================== */

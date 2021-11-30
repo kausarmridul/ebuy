@@ -18,10 +18,16 @@ a {
     text-decoration: none;
 }
 
+/* =================
+    Common Css Ends
+=================== */
+
 @import 'header_footer/header';
 @import 'ban_to_bl/banner';
 @import 'ban_to_bl/service-head';
 @import 'ban_to_bl/launch-product';
 @import 'ban_to_bl/featured';
 @import 'ban_to_bl/latest_product';
+@import 'ban_to_bl/testimonial';
+@import 'ban_to_bl/blog';
 @import 'header_footer/footer';

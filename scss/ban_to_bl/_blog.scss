@@ -1,0 +1,95 @@
+@import '../variables';
+
+/* =============
+   Blog Starts
+============== */
+
+#blog {
+    .blog-head {
+        width: 350px;
+        margin: 0 auto;
+        padding-bottom: 70px;
+        position: relative;
+
+        &::before {
+            content: '';
+            position: absolute;
+            bottom: 60px;
+            left: 2px;
+            width: 81px;
+            height: 1px;
+            background: $brand;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: 55px;
+            left: 2px;
+            width: 41px;
+            height: 1px;
+            background: $brand;
+        }
+
+        h3 {
+            @include comhed;
+        }
+    }
+
+    .blog-body {
+        .blog-item {
+            // .blog-image {
+            //     img {}
+
+            //     .overlay {
+            //         .blog-date {
+            //             a {
+            //                 i {}
+            //             }
+            //         }
+
+            //         .blog-link {
+            //             a {
+            //                 i {}
+            //             }
+            //         }
+
+            //         .blog-rewards {
+            //             a {
+            //                 i {}
+            //             }
+            //         }
+            //     }
+            // }
+
+
+            .blog-content {
+                h3 {
+                    @include ralemed;
+                    font-size: 20px;
+                    color: $cl3;
+                }
+
+                p {
+                    @include openreg;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: $bg1;
+                }
+
+                a {
+                    @include ralemed;
+                    font-size: 16px;
+
+                    // i {}
+                }
+            }
+
+        }
+    }
+}
+
+
+/* =============
+   Blog Starts
+============== */
