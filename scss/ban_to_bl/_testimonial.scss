@@ -6,17 +6,20 @@
 ======================== */
 
 #testimonial {
+    padding-top: 60px;
+
     .testimonial-head {
         width: 350px;
         margin: 0 auto;
         padding-bottom: 70px;
         position: relative;
+        text-align: center;
 
         &::before {
             content: '';
             position: absolute;
             bottom: 60px;
-            left: 2px;
+            left: 67px;
             width: 107px;
             height: 1px;
             background: $brand;
@@ -26,7 +29,7 @@
             content: '';
             position: absolute;
             bottom: 55px;
-            left: 2px;
+            left: 67px;
             width: 54px;
             height: 1px;
             background: $brand;
@@ -55,6 +58,33 @@
         }
 
         .testimonial-slider {
+
+
+            .fa-chevron-left {
+                @include fiaro;
+                bottom: -70px;
+                left: calc(50% - 45px);
+                @include trans(.4s);
+
+                &:hover {
+                    @include bhover;
+                    color: #fff;
+                }
+            }
+
+            .fa-chevron-right {
+                @include fiaro;
+                bottom: -70px;
+                right: calc(50% - 45px);
+                @include trans(.4s);
+
+                &:hover {
+                    @include bhover;
+                    color: #fff;
+                }
+            }
+
+
             .testimonial-item {
                 padding-right: 30px;
 

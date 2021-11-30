@@ -14,12 +14,13 @@
         margin: 0 auto;
         padding-bottom: 70px;
         position: relative;
+        text-align: center;
 
         &::before {
             content: '';
             position: absolute;
             bottom: 60px;
-            left: 2px;
+            left: 30px;
             width: 146px;
             height: 1px;
             background: $brand;
@@ -29,7 +30,7 @@
             content: '';
             position: absolute;
             bottom: 55px;
-            left: 2px;
+            left: 30px;
             width: 73px;
             height: 1px;
             background: $brand;
@@ -43,6 +44,33 @@
 
     .product-slider {
 
+        .fa-chevron-left {
+            @include fiaro;
+            color: $bg1;
+            border-color: $bg1;
+            bottom: -70px;
+            left: calc(50% - 45px);
+            @include trans(.4s);
+
+            &:hover {
+                @include bhover;
+                color: #fff;
+            }
+        }
+
+        .fa-chevron-right {
+            @include fiaro;
+            color: $bg1;
+            bottom: -70px;
+            border-color: $bg1;
+            right: calc(50% - 45px);
+            @include trans(.4s);
+
+            &:hover {
+                @include bhover;
+                color: #fff;
+            }
+        }
 
         .product-item {
             padding: 0 10px;

@@ -7,7 +7,10 @@
 
 #banner {
 
+
     .banner-slider {
+        position: relative;
+
         .bg-1 {
             background: url(../images/banner-1.jpg) no-repeat center / cover;
 
@@ -27,6 +30,26 @@
                     background: $brand;
                     border-color: $brand;
                 }
+            }
+        }
+
+        .fa-chevron-left {
+            @include fiaro;
+            left: calc(50% - 45px);
+            @include trans(.4s);
+
+            &:hover {
+                @include bhover;
+            }
+        }
+
+        .fa-chevron-right {
+            @include fiaro;
+            right: calc(50% - 45px);
+            @include trans(.4s);
+
+            &:hover {
+                @include bhover;
             }
         }
 

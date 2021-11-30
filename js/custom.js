@@ -6,20 +6,15 @@ $(document).ready(function () {
   $('.service-body').slick({
     slidesToShow: 3,
     arrows: false,
-    responsive: [{
-      breakpoint: 992,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        infinite: true,
-      }
-    }]
+
   });
 
   // Product Slider
 
   $('.product-slider').slick({
     slidesToShow: 4,
+    prevArrow: '<i class="fas fa-chevron-left"></i>',
+    nextArrow: '<i class="fas fa-chevron-right"></i>',
   })
 
 
@@ -30,7 +25,8 @@ $(document).ready(function () {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    arrows: false,
+    prevArrow: '<i class="fas fa-chevron-left"></i>',
+    nextArrow: '<i class="fas fa-chevron-right"></i>',
   });
 
 
@@ -50,11 +46,18 @@ $(document).ready(function () {
   $('.testimonial-slider').slick({
     slidesToShow: 2,
     slidesToScroll: 1,
-    arrows: false,
+    prevArrow: '<i class="fas fa-chevron-left"></i>',
+    nextArrow: '<i class="fas fa-chevron-right"></i>',
   })
 
 
   // Feature Product Filter
 
   var mixer = mixitup(".feature-tabs");
+
+
+  // Venobox Image
+
+  $('.venobox').venobox();
+
 })

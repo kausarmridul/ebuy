@@ -15,12 +15,13 @@
         margin: 0 auto;
         padding-bottom: 70px;
         position: relative;
+        text-align: center;
 
         &::before {
             content: '';
             position: absolute;
             bottom: 60px;
-            left: 2px;
+            left: 4px;
             width: 172px;
             height: 1px;
             background: $brand;
@@ -30,7 +31,7 @@
             content: '';
             position: absolute;
             bottom: 55px;
-            left: 2px;
+            left: 4px;
             width: 86px;
             height: 1px;
             background: $brand;
