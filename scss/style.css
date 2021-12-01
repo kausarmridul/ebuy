@@ -1245,6 +1245,129 @@ nav .navbar-collapse .cart-item {
 /* =============
    Blog Starts
 ============== */
+/* ========================
+    Breadcrumbs Part Starts
+========================== */
+#breadcrumbs {
+  background: url(../images/bradcrumbs-banner.jpg) no-repeat center/cover;
+  position: relative;
+  padding: 70px 0;
+  z-index: 1;
+}
+
+#breadcrumbs::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}
+
+#breadcrumbs .breadcrumb-text h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 5px !important;
+}
+
+#breadcrumbs .breadcrumb-text a {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+}
+
+#breadcrumbs .breadcrumb-text a:last-child {
+  color: #de4644;
+}
+
+#breadcrumbs .breadcrumb-text i {
+  margin: 0 5px;
+  color: #fff;
+}
+
+/* ========================
+    Breadcrumbs Part Ends
+========================== */
+/* ===================
+    About Part Starts
+==================== */
+#about-details {
+  position: relative;
+  padding: 100px 0;
+}
+
+#about-details .about-image .about-image-bg {
+  position: absolute;
+  z-index: -1;
+}
+
+#about-details .about-text {
+  padding: 50px 0;
+}
+
+#about-details .about-text .about-text-bg {
+  padding: 60px 20px;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+#about-details .about-text .about-text-bg ul li {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #dddddd;
+  text-align: justify;
+  padding-bottom: 20px;
+}
+
+#about-details .about-text .about-text-bg ul li:last-child {
+  padding-bottom: 0px;
+}
+
+/* ===================
+    About Part Ends
+==================== */
+/* =======================
+    Counterup Part Starts
+======================= */
+#counter {
+  background: url(../images/about-page-counterup.jpg) no-repeat center/cover;
+  padding: 50px 0;
+  position: relative;
+  z-index: 1;
+}
+
+#counter::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: -1;
+}
+
+#counter .counter-item h4 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: #fff;
+}
+
+#counter .counter-item p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
+/* =======================
+    Counterup Part Ends
+======================= */
 /* =========================
   Page Lower Portion Starts
 ========================== */
