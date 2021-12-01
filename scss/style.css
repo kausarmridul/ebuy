@@ -1368,6 +1368,150 @@ nav .navbar-collapse .cart-item {
 /* =======================
     Counterup Part Ends
 ======================= */
+/* ===========================
+    Our Designer Part Starts
+=========================== */
+#our-designer {
+  padding-top: 90px;
+  padding-bottom: 100px;
+}
+
+#our-designer .designer-head {
+  width: 350px;
+  margin: 0 auto;
+  padding-bottom: 70px;
+  position: relative;
+  text-align: center;
+}
+
+#our-designer .designer-head::before {
+  content: '';
+  position: absolute;
+  bottom: 60px;
+  left: 52px;
+  width: 146px;
+  height: 1px;
+  background: #de4644;
+}
+
+#our-designer .designer-head::after {
+  content: '';
+  position: absolute;
+  bottom: 55px;
+  left: 52px;
+  width: 73px;
+  height: 1px;
+  background: #de4644;
+}
+
+#our-designer .designer-head h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: #222222;
+}
+
+#our-designer .designer-body .designer-item {
+  padding: 0 10px;
+}
+
+#our-designer .designer-body .designer-item .designer-image {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #777;
+}
+
+#our-designer .designer-body .designer-item .designer-image:hover .overlay {
+  right: 0;
+  visibility: visible;
+}
+
+#our-designer .designer-body .designer-item .designer-image .overlay {
+  width: 100px;
+  height: 100%;
+  position: absolute;
+  right: -120px;
+  top: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  visibility: hidden;
+}
+
+#our-designer .designer-body .designer-item .designer-image .overlay ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#our-designer .designer-body .designer-item .designer-image .overlay ul li {
+  margin-bottom: 30px;
+}
+
+#our-designer .designer-body .designer-item .designer-image .overlay ul li:last-child {
+  margin-bottom: 0;
+}
+
+#our-designer .designer-body .designer-item .designer-image .overlay ul li a {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fffefe;
+  color: #fffefe;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  font-size: 25px;
+  transition: all linear 0.5s;
+  -ms-transition: all linear 0.5s;
+  -moz-transition: all linear 0.5s;
+  -o-transition: all linear 0.5s;
+  -webkit-transition: all linear 0.5s;
+}
+
+#our-designer .designer-body .designer-item .designer-image .overlay ul li a:hover {
+  background: #de4644;
+  border-color: #de4644;
+}
+
+#our-designer .designer-body .designer-item .designer-title {
+  padding: 20px;
+  border: 1px solid #777;
+  border-top: none;
+}
+
+#our-designer .designer-body .designer-item .designer-title h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #222222;
+  margin-bottom: 5px !important;
+}
+
+#our-designer .designer-body .designer-item .designer-title p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #444444;
+}
+
+/* ===========================
+    Our Designer Part Ends
+=========================== */
 /* =========================
   Page Lower Portion Starts
 ========================== */
