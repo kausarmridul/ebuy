@@ -1373,7 +1373,7 @@ nav .navbar-collapse .cart-item {
 =========================== */
 #our-designer {
   padding-top: 90px;
-  padding-bottom: 100px;
+  padding-bottom: 40px;
 }
 
 #our-designer .designer-head {
@@ -1515,6 +1515,7 @@ nav .navbar-collapse .cart-item {
     Our Partner Part Starts
 ========================== */
 #our-partner {
+  padding-top: 60px;
   padding-bottom: 95px;
 }
 

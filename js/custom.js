@@ -9,6 +9,7 @@ $(document).ready(function () {
   $('.service-body').slick({
     slidesToShow: 3,
     arrows: false,
+    autoplay: true,
 
   });
 
@@ -16,6 +17,7 @@ $(document).ready(function () {
 
   $('.product-slider').slick({
     slidesToShow: 4,
+    autoplay: true,
     prevArrow: '<i class="fas fa-chevron-left"></i>',
     nextArrow: '<i class="fas fa-chevron-right"></i>',
   })
@@ -38,6 +40,7 @@ $(document).ready(function () {
   $('.testimonial-slider').slick({
     slidesToShow: 2,
     slidesToScroll: 1,
+    autoplay: true,
     prevArrow: '<i class="fas fa-chevron-left"></i>',
     nextArrow: '<i class="fas fa-chevron-right"></i>',
   })
@@ -47,6 +50,7 @@ $(document).ready(function () {
 
   $('.designer-slider').slick({
     slidesToShow: 4,
+    autoplay: true,
   })
 
 
@@ -55,6 +59,7 @@ $(document).ready(function () {
   $('.partner-slider').slick({
     slidesToShow: 5,
     slidesToScroll: 1,
+    autoplay: true,
     prevArrow: '<i class="fas fa-chevron-left"></i>',
     nextArrow: '<i class="fas fa-chevron-right"></i>',
     centerMode: true,
