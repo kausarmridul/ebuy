@@ -1418,7 +1418,6 @@ nav .navbar-collapse .cart-item {
 #our-designer .designer-body .designer-item .designer-image {
   position: relative;
   overflow: hidden;
-  border: 1px solid #777;
 }
 
 #our-designer .designer-body .designer-item .designer-image:hover .overlay {
@@ -1512,6 +1511,85 @@ nav .navbar-collapse .cart-item {
 /* ===========================
     Our Designer Part Ends
 =========================== */
+/* =========================
+    Our Partner Part Starts
+========================== */
+#our-partner {
+  padding-bottom: 95px;
+}
+
+#our-partner .partner-slider .fa-chevron-left {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #444444;
+  line-height: 30px;
+  color: #222222;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  bottom: 45px;
+  z-index: 2;
+  left: -45px;
+  transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+}
+
+#our-partner .partner-slider .fa-chevron-left:hover {
+  color: #fff;
+  background: #de4644;
+  border-color: #de4644;
+}
+
+#our-partner .partner-slider .fa-chevron-right {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #444444;
+  line-height: 30px;
+  color: #222222;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  bottom: 45px;
+  z-index: 2;
+  transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+  right: -50px;
+}
+
+#our-partner .partner-slider .fa-chevron-right:hover {
+  color: #fff;
+  background: #de4644;
+  border-color: #de4644;
+}
+
+#our-partner .partner-slider .slick-center img {
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.7);
+          box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.7);
+}
+
+#our-partner .partner-slider .partner-item {
+  padding: 0 15px;
+}
+
+#our-partner .partner-slider .partner-item img {
+  transition: all linear 0.5s;
+  -ms-transition: all linear 0.5s;
+  -moz-transition: all linear 0.5s;
+  -o-transition: all linear 0.5s;
+  -webkit-transition: all linear 0.5s;
+}
+
+/* =========================
+    Our Partner Part Ends
+========================== */
 /* =========================
   Page Lower Portion Starts
 ========================== */

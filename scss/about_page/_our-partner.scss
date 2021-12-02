@@ -1,0 +1,53 @@
+@import '../variables';
+
+
+/* =========================
+    Our Partner Part Starts
+========================== */
+
+#our-partner {
+    padding-bottom: 95px;
+
+    .partner-slider {
+        .fa-chevron-left {
+            @include patslion;
+            left: -45px;
+            @include trans(.4s);
+
+            &:hover {
+                color: #fff;
+                @include bhover;
+            }
+        }
+
+        .fa-chevron-right {
+            @include patslion;
+            @include trans(.4s);
+            right: -50px;
+
+            &:hover {
+                color: #fff;
+                @include bhover;
+            }
+        }
+
+        .slick-center {
+            img {
+                box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.7);
+            }
+        }
+
+        .partner-item {
+            padding: 0 15px;
+
+            img {
+                @include trans(.5s);
+            }
+        }
+    }
+}
+
+
+/* =========================
+    Our Partner Part Ends
+========================== */

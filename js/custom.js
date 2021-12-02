@@ -1,6 +1,9 @@
 $(document).ready(function () {
   'use strict'
 
+
+
+
   // Service Slider
 
   $('.service-body').slick({
@@ -30,6 +33,44 @@ $(document).ready(function () {
   });
 
 
+  // Testimonial Slider
+
+  $('.testimonial-slider').slick({
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    prevArrow: '<i class="fas fa-chevron-left"></i>',
+    nextArrow: '<i class="fas fa-chevron-right"></i>',
+  })
+
+
+  // Designer Slider
+
+  $('.designer-slider').slick({
+    slidesToShow: 4,
+  })
+
+
+  // Partner Slider
+
+  $('.partner-slider').slick({
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    prevArrow: '<i class="fas fa-chevron-left"></i>',
+    nextArrow: '<i class="fas fa-chevron-right"></i>',
+    centerMode: true,
+    centerPadding: '0',
+  })
+
+
+
+  // Counter Up
+
+  $('.counter').counterUp({
+    delay: 10,
+    time: 1000
+  });
+
+
   // Countdown Timer
 
   $('#countdown').countdown({
@@ -41,14 +82,7 @@ $(document).ready(function () {
     second: 0, // 0-59
   });
 
-  // Testimonial Slider
 
-  $('.testimonial-slider').slick({
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    prevArrow: '<i class="fas fa-chevron-left"></i>',
-    nextArrow: '<i class="fas fa-chevron-right"></i>',
-  })
 
 
   // Feature Product Filter
@@ -60,8 +94,7 @@ $(document).ready(function () {
 
   $('.venobox').venobox();
 
-  // Counterup
 
-  // Counter Up
+
 
 })
