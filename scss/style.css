@@ -1685,6 +1685,167 @@ nav .navbar-collapse .cart-item {
           filter: grayscale(0.9);
 }
 
+#checkout {
+  padding-top: 115px;
+  padding-bottom: 40px;
+}
+
+#checkout .payment-details .nav-tabs {
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  margin-bottom: 30px;
+}
+
+#checkout .payment-details .nav-tabs li {
+  position: relative;
+}
+
+#checkout .payment-details .nav-tabs li:first-child::after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 20px;
+  right: 0;
+  bottom: 10px;
+  background: #444444;
+}
+
+#checkout .payment-details .nav-tabs li button {
+  border: none;
+  color: #444444;
+}
+
+#checkout .payment-details .nav-tabs li button span {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+#checkout .payment-details .nav-tabs li button small {
+  @includec openreg;
+  font-size: 14px;
+}
+
+#checkout .payment-details .nav-tabs li .active {
+  background: none;
+}
+
+#checkout .payment-details .nav-tabs li .active span {
+  text-transform: uppercase !important;
+  color: #de4644;
+}
+
+#checkout .payment-details .tab-content input {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #777777;
+  border-color: #dddddd;
+}
+
+#checkout .payment-details .tab-content .form-select {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #777777;
+  border-color: #dddddd;
+}
+
+#checkout .payment-details .tab-content textarea {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #777777;
+  border-color: #dddddd;
+  resize: none;
+  height: 150px;
+}
+
+#checkout .payment-gateway h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #222222;
+}
+
+#checkout .payment-gateway .cart-total {
+  margin-bottom: 30px;
+}
+
+#checkout .payment-gateway .cart-total ul {
+  border: 1px solid #dddddd;
+}
+
+#checkout .payment-gateway .cart-total ul li {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px !important;
+  color: #444444;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px 10px;
+  border-top: 1px solid #dddddd;
+}
+
+#checkout .payment-gateway .cart-total ul li:first-child {
+  border-top: none;
+}
+
+#checkout .payment-gateway .cart-total ul li:last-child {
+  border-color: #de4644;
+}
+
+#checkout .payment-gateway .cart-total ul li small {
+  font-size: 16px !important;
+}
+
+#checkout .payment-gateway .payment-method h3 {
+  padding: 20px 0;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+
+#checkout .payment-gateway .payment-method .checkmark {
+  background: red !important;
+}
+
+#checkout .payment-gateway .payment-method input[type="checkbox"] {
+  background: #222;
+}
+
+#checkout .payment-gateway .payment-method label {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #444444;
+  margin-bottom: 10px;
+}
+
+#checkout .payment-gateway .payment-method p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #777777;
+  margin-bottom: 10px !important;
+}
+
+#checkout .payment-gateway .payment-method button {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  background: #de4644;
+  color: #fff;
+  line-height: 53px;
+  padding: 0 20px;
+  margin-top: 15px;
+}
+
 /* =========================
   Page Lower Portion Starts
 ========================== */

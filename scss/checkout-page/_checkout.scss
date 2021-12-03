@@ -1,0 +1,153 @@
+@import '../variables';
+
+#checkout {
+    padding-top: 115px;
+    padding-bottom: 40px;
+
+    .payment-details {
+        .nav-tabs {
+            border-top: 1px solid $cl1;
+            border-bottom: 1px solid $cl1;
+            margin-bottom: 30px;
+
+            li {
+                position: relative;
+
+                &:first-child {
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        width: 1px;
+                        height: 20px;
+                        right: 0;
+                        bottom: 10px;
+                        background: $bg1;
+                    }
+                }
+
+                button {
+                    border: none;
+                    color: $bg1;
+
+                    span {
+                        @include ralemed;
+                        font-size: 20px;
+                    }
+
+                    small {
+                        @includec openreg;
+                        font-size: 14px;
+                    }
+                }
+
+                .active {
+                    background: none;
+
+                    span {
+                        text-transform: uppercase !important;
+                        color: $brand;
+                    }
+                }
+            }
+        }
+
+        .tab-content {
+            input {
+                @include checkform;
+            }
+
+            .form-select {
+                @include checkform;
+            }
+
+            textarea {
+                @include checkform;
+                resize: none;
+                height: 150px;
+            }
+        }
+    }
+
+    .payment-gateway {
+        h3 {
+            @include ralemed;
+            font-size: 20px;
+            color: $cl3;
+        }
+
+        .cart-total {
+            margin-bottom: 30px;
+
+            ul {
+                border: 1px solid $cl1;
+
+                li {
+                    @include ralemed;
+                    font-size: 16px !important;
+                    color: $bg1;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 15px 10px;
+                    border-top: 1px solid $cl1;
+
+                    &:first-child {
+                        border-top: none;
+                    }
+
+                    &:last-child {
+                        border-color: $brand;
+                    }
+
+                    h6 {}
+
+                    small {
+                        font-size: 16px !important;
+                    }
+                }
+            }
+        }
+
+        .payment-method {
+            h3 {
+                padding: 20px 0;
+                border-top: 1px solid $cl1;
+                border-bottom: 1px solid $cl1;
+            }
+
+            .checkmark {
+                background: red !important;
+            }
+
+            input[type="checkbox"] {
+                background: #222;
+            }
+
+            label {
+                @include ralemed;
+                font-size: 16px;
+                color: $bg1;
+                margin-bottom: 10px;
+
+            }
+
+            p {
+                @include openreg;
+                font-size: 14px;
+                line-height: 24px;
+                color: $cl4;
+                margin-bottom: 10px !important;
+            }
+
+            button {
+                @include ralemed;
+                font-size: 16px;
+                border: none;
+                background: $brand;
+                color: #fff;
+                line-height: 53px;
+                padding: 0 20px;
+                margin-top: 15px;
+            }
+        }
+    }
+}

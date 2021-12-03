@@ -65,3 +65,10 @@
     bottom: 45px;
     z-index: 2;
 }
+
+@mixin checkform {
+    @include openreg;
+    font-size: 14px;
+    color: $cl4;
+    border-color: $cl1;
+}
