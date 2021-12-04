@@ -68,6 +68,10 @@ $(document).ready(function () {
 
 
 
+  // Input Number
+
+  $('input[type="number"]').niceNumber();
+
   // Counter Up
 
   $('.counter').counterUp({
@@ -86,6 +90,7 @@ $(document).ready(function () {
     minute: 0, // 0-59
     second: 0, // 0-59
   });
+
 
 
 

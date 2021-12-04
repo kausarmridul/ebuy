@@ -1,0 +1,217 @@
+@import '../variables';
+
+/* ======================
+    Shopping Cart Starts
+    ===================  */
+
+#shopping-cart {
+    padding-top: 100px;
+    padding-bottom: 40px;
+
+    .shopping-left {
+        table {
+            th {
+                @include ralemed;
+                font-size: 20px;
+                color: $cl3;
+            }
+
+            td {
+                vertical-align: middle;
+                text-align: center;
+
+                a {
+                    &:hover {
+                        i {
+                            color: $brand;
+                        }
+                    }
+
+                    i {
+                        font-size: 20px;
+                        color: $bg1;
+                        @include trans(.4s);
+                    }
+                }
+            }
+
+            .nice-number {
+                width: 60px;
+                height: 40px;
+                position: relative;
+                border: 1px solid $cl3;
+
+                button {
+                    position: absolute;
+                    width: 20px;
+                    height: 20px;
+                    right: 0;
+                    line-height: 20px;
+                    background: transparent;
+                    border: 1px solid $cl3;
+                    @include trans(.4s);
+
+                    &:hover {
+                        color: #fff;
+                        @include bhover;
+                    }
+
+                    &:first-of-type {
+                        bottom: 0;
+                        border-bottom: 0;
+
+                    }
+
+                    &:last-of-type {
+                        top: 0;
+                        border-top: 0;
+                        border-bottom: 0;
+
+                    }
+
+                }
+
+                input {
+                    width: 40px;
+                    height: 35px;
+                    border: none;
+                    outline: none;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    @include ralemed;
+                    font-size: 24px;
+                }
+            }
+
+            .product-details {
+                display: flex;
+
+                img {}
+
+                ul {
+                    padding-left: 10px !important;
+
+                    li {
+                        p {
+                            @include ralemed;
+                            font-size: 16px;
+                            color: $cl3;
+                        }
+
+                        a {
+                            color: $brand;
+                            display: inline-block;
+
+
+                            i {
+                                font-size: 14px;
+
+                            }
+                        }
+
+                        span {
+                            @include ralereg;
+                            font-size: 14px;
+                            color: $bg1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    .shopping-right {
+
+
+        h3 {
+            @include ralemed;
+            font-size: 20px;
+            color: $cl3;
+        }
+
+        .coupon-form {
+            margin-bottom: 60px;
+
+            .input-group {
+                margin-top: 10px;
+
+                input {
+                    @include openreg;
+                    font-size: 14px;
+                    border-color: $cl1;
+                    color: $cl4;
+                }
+
+                button {
+                    @include ralemed;
+                    font-size: 14px;
+                    background: $brand;
+                    border: none;
+                    color: #fff;
+                }
+            }
+        }
+
+        .cart-total {
+            margin-bottom: 30px;
+
+            ul {
+                border: 1px solid $cl1;
+
+                li {
+                    @include ralemed;
+                    font-size: 16px !important;
+                    color: $bg1;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 15px 10px;
+                    border-top: 1px solid $cl1;
+
+                    &:first-child {
+                        border-top: none;
+                    }
+
+                    &:last-child {
+                        border-color: $brand;
+                    }
+
+                    h6 {}
+
+                    small {
+                        font-size: 16px !important;
+                    }
+                }
+            }
+        }
+
+        .submit-btn {
+            button {
+                @include ralemed;
+                font-size: 16px;
+                line-height: 46px;
+                color: $bg1;
+                border: 1px solid $bg1;
+                background: transparent;
+                padding: 0 15px;
+                margin-right: 10px;
+                @include trans(.4s);
+
+                &:hover {
+                    @include bhover;
+                    color: #fff;
+                }
+
+                &:last-of-type {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+
+}
+
+/* ======================
+    Shopping Cart Ends
+    ===================  */

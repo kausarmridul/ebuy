@@ -14,6 +14,7 @@
     rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
   <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/jquery.nice-number.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="stylesheet" href="scss/style.css" />
 </head>
@@ -143,6 +144,209 @@
 
 
 
+  <!-- ========================
+        Shopping Cart Starts
+  ========================= -->
+
+  <section id="shopping-cart">
+    <div class="container">
+      <form>
+
+        <div class="row">
+          <div class="col-lg-9">
+            <div class="shopping-left">
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th scope="col">Product & Color</th>
+                    <th scope="col">Unit Price</th>
+                    <th scope="col">Quantity</th>
+                    <th scope="col">Unit Price</th>
+                    <th scope="col">Remove Item</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">
+                      <div class="product-details">
+                        <img src="images/product-1.jpg" alt="Product-1">
+                        <ul class="ps-0 mb-0">
+                          <li>
+                            <p class="mb-0 text-capitalize">samsung smart watch</p>
+                          </li>
+                          <li>
+                            <a href="#"> <i class="fas fa-star"></i></a>
+                            <a href="#"> <i class="fas fa-star"></i></a>
+                            <a href="#"> <i class="fas fa-star"></i></a>
+                            <a href="#"> <i class="fas fa-star"></i></a>
+                            <a href="#"><i class="fas fa-star-half-alt"></i></a>
+                          </li>
+                          <li>
+                            <span class="mb-0 text-capitalize">color : silver</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </th>
+                    <td>
+                      <p class="mb-0">&dollar;99.00</p>
+                    </td>
+                    <td>
+                      <input type="number" value="1" style="width: 4ch;">
+                    </td>
+                    <td>
+                      <p class="mb-0">&dollar;99.00</p>
+                    </td>
+                    <td><a href="#"><i class="far fa-trash-alt"></i></a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <div class="product-details">
+                        <img src="images/product-2.jpg" alt="Product-2">
+                        <ul class="ps-0 mb-0">
+                          <li>
+                            <p class="mb-0 text-capitalize">apple smart watch</p>
+                          </li>
+                          <li>
+                            <a href="#"> <i class="fas fa-star"></i></a>
+                            <a href="#"> <i class="fas fa-star"></i></a>
+                            <a href="#"> <i class="fas fa-star"></i></a>
+                            <a href="#"> <i class="fas fa-star"></i></a>
+                            <a href="#"><i class="fas fa-star-half-alt"></i></a>
+                          </li>
+                          <li>
+                            <span class="mb-0 text-capitalize">color : silver</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </th>
+                    <td>
+                      <p class="mb-0">&dollar;99.00</p>
+                    </td>
+                    <td>
+                      <input type="number" value="1" style="width: 4ch;">
+                    </td>
+                    <td>
+                      <p class="mb-0">&dollar;198.00</p>
+                    </td>
+                    <td><a href="#"><i class="far fa-trash-alt"></i></a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <div class="product-details">
+                        <img src="images/product-3.jpg" alt="Product-3">
+                        <ul class="ps-0 mb-0">
+                          <li>
+                            <p class="mb-0 text-capitalize">foam chair</p>
+                          </li>
+                          <li>
+                            <a href="#"> <i class="fas fa-star"></i></a>
+                            <a href="#"> <i class="fas fa-star"></i></a>
+                            <a href="#"> <i class="fas fa-star"></i></a>
+                            <a href="#"> <i class="fas fa-star"></i></a>
+                            <a href="#"><i class="fas fa-star-half-alt"></i></a>
+                          </li>
+                          <li>
+                            <span class="mb-0 text-capitalize">color : silver</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </th>
+                    <td>
+                      <p class="mb-0">&dollar;99.00</p>
+                    </td>
+                    <td>
+                      <input type="number" value="1" style="width: 4ch;">
+                    </td>
+                    <td>
+                      <p class="mb-0">&dollar;297.00</p>
+                    </td>
+                    <td><a href="#"><i class="far fa-trash-alt"></i></a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <div class="product-details">
+                        <img src="images/product-4.jpg" alt="Product-4">
+                        <ul class="ps-0 mb-0">
+                          <li>
+                            <p class="mb-0 text-capitalize">relaxable rocking chair</p>
+                          </li>
+                          <li>
+                            <a href="#"> <i class="fas fa-star"></i></a>
+                            <a href="#"> <i class="fas fa-star"></i></a>
+                            <a href="#"> <i class="fas fa-star"></i></a>
+                            <a href="#"> <i class="fas fa-star"></i></a>
+                            <a href="#"><i class="fas fa-star-half-alt"></i></a>
+                          </li>
+                          <li>
+                            <span class="mb-0 text-capitalize">color : silver</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </th>
+                    <td>
+                      <p class="mb-0">&dollar;99.00</p>
+                    </td>
+                    <td>
+                      <input type="number" value="1" style="width: 4ch;">
+                    </td>
+                    <td>
+                      <p class="mb-0">&dollar;396.00</p>
+                    </td>
+                    <td><a href="#"><i class="far fa-trash-alt"></i></a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="shopping-right">
+              <div class="coupon-form">
+                <h3 class="mb-0">Have a coupon?</h3>
+                <div class="input-group">
+                  <input type="text" class="form-control rounded-0" placeholder="Enter your code"
+                    aria-label="Input group example" aria-describedby="btnGroupAddon" />
+                  <button class="input-group-text text-uppercase rounded-0" type="button">
+                    send
+                  </button>
+                </div>
+              </div>
+
+              <div class="cart-total">
+                <ul class="ps-0 mb-0">
+                  <li>
+                    <h3 class="mb-0 text-capitalize">cart total</h3>
+                  </li>
+                  <li>
+                    <h6 class="mb-0 text-capitalize">cart subtotal</h6><small>&dollar;990.00</small>
+                  </li>
+                  <li>
+                    <h6 class="mb-0 text-capitalize">(+) shipping</h6><small>&dollar;10.00</small>
+                  </li>
+                  <li>
+                    <h6 class="mb-0 text-capitalize">(-) discount</h6><small>&dollar;20.00</small>
+                  </li>
+                  <li>
+                    <h6 class="mb-0 text-capitalize">grand total</h6><small>&dollar;980.00</small>
+                  </li>
+                </ul>
+              </div>
+              <div class="submit-btn">
+                <button type="button">Update Cart</button>
+                <button type="submit">Proceed</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ====================
+        Shopping Cart Ends
+     ===================== -->
+
+
+
 
   <!-- =====================
     Our Partner Part Starts
@@ -219,8 +423,8 @@
                   <div class="icon">
                     <i class="fas fa-phone-alt"></i>
                   </div>
-                  <a href="tel:+123 456 78900"> +123 456 78900</a>,
-                  <a href="tel:+009876 54321"> +009 876 54321</a>
+                  <a href="tel:+12345678900"> +123 456 78900</a>,
+                  <a href="tel:+00987654321"> +009 876 54321</a>
                 </li>
                 <li>
                   <div class="icon"><i class="fas fa-envelope"></i></div>
@@ -300,6 +504,7 @@
   <script src="js/jquery-2.2.4.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/slick.min.js"></script>
+  <script src="js/jquery.nice-number.min.js"></script>
   <script src="js/custom.js"></script>
 </body>
 
