@@ -1,9 +1,6 @@
 $(document).ready(function () {
   'use strict'
 
-
-
-
   // Service Slider
 
   $('.service-body').slick({
@@ -22,9 +19,7 @@ $(document).ready(function () {
     nextArrow: '<i class="fas fa-chevron-right"></i>',
   })
 
-
   // Banner Slider
-
 
   $('.banner-slider').slick({
     slidesToShow: 1,
@@ -76,7 +71,6 @@ $(document).ready(function () {
     draggable: false,
   })
 
-
   // Partner Slider
 
   $('.partner-slider').slick({
@@ -89,12 +83,6 @@ $(document).ready(function () {
     centerPadding: '0',
   })
 
-
-
-  // Input Number
-
-  $('input[type="number"]').niceNumber();
-
   // Counter Up
 
   $('.counter').counterUp({
@@ -102,6 +90,10 @@ $(document).ready(function () {
     time: 1000
   });
 
+
+  // Venobox Image
+
+  $('.venobox').venobox();
 
   // Countdown Timer
 
@@ -114,20 +106,13 @@ $(document).ready(function () {
     second: 0, // 0-59
   });
 
+  // Input Number
 
-
+  $('input[type="number"]').niceNumber();
 
 
   // Feature Product Filter
 
   var mixer = mixitup(".feature-tabs");
-
-
-  // Venobox Image
-
-  $('.venobox').venobox();
-
-
-
 
 })
