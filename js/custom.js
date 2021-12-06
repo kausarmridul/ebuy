@@ -53,6 +53,29 @@ $(document).ready(function () {
     autoplay: true,
   })
 
+  // Product preview Slider
+
+  $('.product-preview-slider').slick({
+    slidesToShow: 1,
+    arrows: false,
+    asNavFor: '.thumbnail-preview-slider',
+    draggable: false,
+    fade: true,
+  })
+
+  // Thumbnail preview Slider
+
+  $('.thumbnail-preview-slider').slick({
+    slidesToShow: 3,
+    arrows: false,
+    asNavFor: '.product-preview-slider',
+    centerMode: true,
+    centerPadding: '0px',
+    focusOnSelect: true,
+    // fade: true,
+    draggable: false,
+  })
+
 
   // Partner Slider
 

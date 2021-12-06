@@ -1885,6 +1885,7 @@ nav .navbar-collapse .cart-item {
   height: 40px;
   position: relative;
   border: 1px solid #222222;
+  border-right: 0;
 }
 
 #shopping-cart .shopping-left table .nice-number button {
@@ -2062,6 +2063,14 @@ nav .navbar-collapse .cart-item {
 /* ======================
     Shopping Cart Ends
     ===================  */
+#product-single {
+  padding-top: 100px;
+}
+
+#product-single .thumbnail-image .thumbnail-item {
+  padding: 0 5px;
+}
+
 /* =========================
   Page Lower Portion Starts
 ========================== */
