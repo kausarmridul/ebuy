@@ -2277,6 +2277,56 @@ nav .navbar-collapse .cart-item {
   font-size: 18px;
 }
 
+#product-single .product-discription {
+  padding-top: 60px;
+}
+
+#product-single .product-discription .nav-tabs {
+  margin-bottom: 25px !important;
+  border-top: 1px dashed #dddddd;
+  border-bottom: 1px dashed #dddddd;
+}
+
+#product-single .product-discription .nav-tabs li {
+  position: relative;
+}
+
+#product-single .product-discription .nav-tabs li:first-child::after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 20px;
+  right: 0;
+  bottom: 12px;
+  background: #444444;
+}
+
+#product-single .product-discription .nav-tabs li .active {
+  background: none;
+  color: #de4644;
+}
+
+#product-single .product-discription .nav-tabs li button {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  border: none;
+  color: #222222;
+}
+
+#product-single .product-discription .tab-content ul li:first-child {
+  margin-bottom: 25px;
+}
+
+#product-single .product-discription .tab-content ul li p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: justify;
+  color: #444444;
+}
+
 /* =========================
   Page Lower Portion Starts
 ========================== */

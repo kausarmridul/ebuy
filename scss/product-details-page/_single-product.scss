@@ -222,4 +222,59 @@
             }
         }
     }
+
+    .product-discription {
+        padding-top: 60px;
+
+        .nav-tabs {
+            margin-bottom: 25px !important;
+            border-top: 1px dashed $cl1;
+            border-bottom: 1px dashed $cl1;
+
+            li {
+                position: relative;
+
+                &:first-child::after {
+                    content: '';
+                    position: absolute;
+                    width: 1px;
+                    height: 20px;
+                    right: 0;
+                    bottom: 12px;
+                    background: #444444;
+
+                }
+
+                .active {
+                    background: none;
+                    color: $brand
+                }
+
+                button {
+                    @include ralemed;
+                    font-size: 20px;
+                    border: none;
+                    color: $cl3;
+                }
+            }
+        }
+
+        .tab-content {
+            ul {
+                li {
+                    &:first-child {
+                        margin-bottom: 25px
+                    }
+
+                    p {
+                        @include openreg;
+                        font-size: 14px;
+                        line-height: 24px;
+                        text-align: justify;
+                        color: $bg1;
+                    }
+                }
+            }
+        }
+    }
 }
